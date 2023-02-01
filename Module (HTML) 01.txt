@@ -1,0 +1,119 @@
+1. Are the HTML Tags and Elements the same thing?
+    -   Elements and Tags are different.
+        Elements are used for creating web pages and they also defines the content in the web page.
+        HTML element have starting tag, content tag and closing tag.
+        1. HTML Tags: tags are the starting and ending parts of an HTML element. 
+           They being < symbol and > symbol. whatever inside < tag > are colled tags. 
+           Ex. <br> <img> <p>
+        2. HTML Elements: Elements enclose the contents in between tags. they consist of some kind of structure or expression.
+            it generally consists of a start tag, content and an end tag. <h1> Content </h1>.
+
+2. What are tags and attributes in HTML?
+    -   HTML tag is a special word or letter surrounded by angle brackets, < and >.
+        You use tags to create HTML elements, such as paragraphs or links.
+        Many elements have an opening tag and a closing tag. for example, a p (paragraph) element has a <p> tag,
+        followed by the paragraph text, followed by a closing </p> tag.
+    -   Attributes provide additional information about elements. Attributes are always specified in the start tag.
+        Attributes usually come in name/value pairs like: name="value", <body bgcolor="">.
+
+3. What are void elements in HTML?
+    -   A void element is an element whose content model never allows it to have contents under any circumstances.
+        Void elements can have attributes. The following is a complete list of the void elements in HTML: 
+        br, hr, img, input, link, source.
+
+4. What are HTML Entities?
+    -	An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ). 
+        Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), 
+        and invisible characters (like non-breaking spaces).
+
+5.	What are different types of lists in HTML?
+    -	There are three types of lists in HTML
+        1.	Unordered List (ul) : An unordered list typically is a bulleted list of items.
+        2.	Ordered List (ol) : An ordered list can be numerical or alphabetical.  
+        3.	Description List (dl) : The <dl> tag is used in conjunction with <dt> (defines terms/names) and
+            <dd> (describes each term/name).
+
+6.  What is the “ class ” attributes in HTML?
+    -   The class attribute specifies one or more class names for an element. The class attribute is mostly used to
+        point to a class in a style sheet. class assigned to an element has its name starts with “.” followed by class name.
+        Multiple class selectors can be attached to an element. The class can be applied to multiple elements so it could be
+        multiple times on a single page.
+
+7.  What is the different between the ‘ id ’ attribute and the ‘ class ’ attribute of HTML elements?
+    -   1. ID : In Html for an element ID name starts with the “#” symbol followed by a unique name assigned to it.
+                Only one ID selector can be attached to an element. Id is unique in a page and can only apply to at 
+                most one element
+        2. CLASS : class assigned to an element has its name starts with “.” followed by class name. 
+                    Multiple class selectors can be attached to an element. The class can be applied to multiple 
+                    elements so it could be multiple times on a single page.
+
+8.	What are the various formatting tags in HTML?
+    -  	Formatting elements were designed to display special types of text:
+        <b> This is a physical tag, which is used to bold the text written between it.
+        <i> This is a physical tag which is used to make text italic.
+        <u> This tag is used to underline text written between it. 
+        <em> This is a logical tag which is used to display content in italic.
+        <strong> This is a logical tag, which tells the browser that the text is important.
+        <sup> It displays the content slightly above the normal line.
+        <sub> It displays the content slightly below the normal line.
+
+9.  How is Cellpadding different from Cellspacing?
+    -   Cellpadding: Cellpadding specifies the space between the border of a table cell and its contents 
+        (i.e) it defines the whitespace between the cell edge and the content of the cell.
+        Cellspacing: Cellspacing specifies the space between cells (i.e) it defines the whitespace between the 
+        edges of the adjacent cells.
+
+10.	How can we club two or more rows or columns into a single row or column in an HTML table?
+    -	It can be done by using the rowspan and colspan attribute in HTML. The rowspan is used to merge or
+        combine the number of cells in a row whereas the colspan is used to merge column cells in a table
+
+11.	What is the Difference between block-level element and an inline element?
+    -	A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
+        before and after the element. Two commonly used block elements are: <p> <div> <hr>.
+    -	An inline element does not start on a new line. An inline element only takes up as much width as necessary. <a> <strong> <span>
+
+12. How to create a Hyperlink in HTML?
+    - 	The HTML <a> tag defines a hyperlink. It has the following syntax: <a href="url">link text</a> 
+        The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+        Clicking on the link text, will send the reader to the specified URL address.
+
+13.	What is the use of an iframe tag?
+    -	The <iframe> tag specifies an inline frame. An inline frame is used to embed another document 
+        within the current HTML document like a video, form, document, or even a full web page.
+        <i frame src="url"></iframe>
+
+14.	What is the use of a span tag? Explain with example?
+    -	The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+        The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. 
+        The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+15.	How to insert a picture into a background image of a web page?
+    -	In the body tag, specify a background image in the background attribute by passing the URL of the image or location path.
+    -	The most common & simple way to add background image is using the background image attribute inside the <body> tag. 
+        The background attribute which we specified in the <body> tag is not supported in HTML5. Using CSS properties,
+        we can also add background image in a webpage.
+
+16.	How are active links different from normal links?
+    -	Normal links are links which are there on the page and have not been clicked yet. Active links are those links,
+        which have just been clicked at that instant.
+
+17.	What are the different tags to separate sections of text? 
+    -	There are three tags used to separate the texts. i.e. usually <br> tag is used to separate line of texts.
+        Other tags are <p> tag and <blockquote> tag.
+
+18.	What is SVG?
+    -	SVG stands for Scalable Vector Graphics.    
+    -	SVG defines vector-based graphics in XML format.
+    -	Every element and every attribute in SVG files can be animated.
+
+19.	What is different between HTML and XHTML?
+    -	HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML.
+        Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+
+20.	What are logical and physical tags in HTML?
+    -	Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page.
+        However, both tags differ from each other as suggested by their names.
+    -	1. Logical Tag: Logical Tags are used in HTML to display the text according to the logical styles.
+            Following are the Logical tags commonly used in HTML.
+    -	2. Physical Tag: Physical Tags are used in HTML to provide actual physical formatting to the text.
+            Following are the Physical tags commonly used in HTML.
