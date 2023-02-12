@@ -1,0 +1,44 @@
+Module (HTML 5) - 03
+
+1. What are the new tags added in HTML 5 tag.
+    These are the tags which added in HTML5 Tags.
+    - Structural or Semantic Tags : Semantic HTML refers to syntax that makes the HTML more comprehensible 
+      by better defining the different sections and layout of web pages.
+    - Form Tags: The <form> tag defines an area with input elements. All input values inside the form are submitted to the server as a group.
+    - Graphics Tags : The HTML <canvas> element is used to draw graphics on a web page. The graphic to the left is created with <canvas>
+    - Media Tags : HTML5 introduced 5 most popular media element tags i.e. <audio>, <video>, <source>, <embed>. 
+      This media element tags changed the entire development using HTML.
+
+2. How to Embed audio and video in a webpage?
+    - Audio and Video can help to add interactive content in website. HTML5 offers easy way to embed audio and video files.
+      To embed audio : The <audio> </audio> element in the HTML5 is used to embed audio files in webpage. 
+      Ex. <audio controls loop>  <source src="path/name.mp3">  </audio> : The "controls" attribute displays the audio player control.
+          The "loop" attribute is used to loop the audio file continuously.
+      To embed video: The <video> </video> element in the HTML5 is used to embed audio files in webpage.
+      Ex. <video src="my-video.mp4" width="500px" height="400px" controls loop></video>
+
+3. Semantic Element in HTML 5?
+    - A semantic element clearly describes its meaning to both the browser and the developer.
+    - In HTML there are some semantic elements that can be used to define different parts of a web page:
+        <header>: The <header> element represents a container for introductory content or a set of navigational links.
+        <footer>: The <footer> element defines a footer for a document or section.
+        <article>: The <article> element specifies independent, self-contained content.
+        <aside>: The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+        <nav>: The <nav> element defines a set of navigation links.
+        <section>: The <section> element defines a section in a document.
+
+4. Canvas and SVG tags?
+    - Canvas : The HTML element is used to draw graphics on the fly, via scripting (usually JavaScript). 
+      The element is only a container for graphics. You must use a script to actually draw the graphics. 
+      Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+      Raster based (composed of pixel)
+      Canvas can be modified through script only.
+    - SVG : The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web. 
+      Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to any extent without losing the image quality.
+      Vector based (composed of shapes)
+      SVG can be modified through script and CSS.
+
+    
+       
+
+         
