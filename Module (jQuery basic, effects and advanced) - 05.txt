@@ -1,0 +1,30 @@
+1. What is jQuery?
+-   jQuery is small, fast and lightweight JavaScript library. It is fast and extensible.
+-   jQuery means Write less Do more. It facilitates the user to write UI related function
+    to codes in minimum possible lines.
+-   It is improves the the performance of an application. 
+-   jQuery is platform independent.
+-   It can be developed browser's compatible web application.
+
+2. How to apply css using jQuery, how to add class and remove class in jQuery, jQuery animation?
+-   We can apply css using jQuery css() Method. The css() method in jQuery used for the purpose of 
+    either fetching or applying one or more style properties to an HTML element. 
+    syntax : css("property","value") : For applying css property.
+-   The addClass() or removeClass() methods are used to add the css classes when there is a need to our webpage
+    when there is some event listener or to create some kind of effect.
+    syntax for adding class : $('selector').addClass(className);
+    syntax for removing class : $('selector').removeClass(className);
+-   The jQuery animate() method perfors a custom animation using element's style properties. the animate() method 
+    with JSON object for style properites, speed of animation and other options. 
+    syntax : $('selector expression').animation({stylePropertyName : 'value'}, duration, easing, callback);
+    $('selector expression').animate({propertyName: 'value'},{options});
+
+3. How to create slider with animation?
+-   jQuery UI consists of GUI widgets, visual effects, and themes implemented using jQuery, CSS, and HTML. 
+    jQuery UI is great for building UI interfaces for the webpages. jQueryUI provides us a slider control 
+    through the slider widget. Slider helps us to get a certain value using a given range. In this article, 
+    we will see how to animate a slider. The animate option when set to true will create an animation effect 
+    when you directly click at any point on the slider’s axis   
+    Syntax: $(".selector").slider(
+              { animate: value }
+              ); 
